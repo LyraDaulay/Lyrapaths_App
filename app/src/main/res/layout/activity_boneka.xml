@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0CB"
+    tools:context=".bonekaActivity">
+
+    <Button
+        android:id="@+id/boneka_button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bear (Rp.67.000,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/teddyu"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/boneka_button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Rabbit (Rp.50.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/rabbitr"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/boneka_button3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Stitch (Rp.74.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/stich"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/boneka_button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bird (Rp.44.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/birdx"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/boneka_button5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Doraemon(Rp.70.000,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/doraemon"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+    
+
+</LinearLayout>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

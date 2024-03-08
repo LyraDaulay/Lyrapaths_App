@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0CB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lyrapaths!💐"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:paddingTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="Selamat datang di Lyrapaths! Di Lyrapaths, saya memahami kebutuhan dan keinginan Anda sebagai seorang girly girl. Saya dengan bangga menyajikan beragam koleksi produk bunga segar yang cantik, produk skincare berkualitas tinggi, dan boneka lucu untuk menemani hari anda!"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/bunga_button"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/skincare_button"
+        android:layout_width="279dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFDD0"
+        android:textColor="#808080"
+        android:text="Skincare" />
+
+    <Button
+        android:id="@+id/boneka_button"
+        android:layout_width="279dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFFDD0"
+        android:textColor="#808080"
+        android:text="Boneka" />
+
+
+
+
+
+</LinearLayout>

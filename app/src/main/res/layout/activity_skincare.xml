@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0CB"
+    tools:context=".skincareActivity">
+
+    <Button
+        android:id="@+id/skincare_button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Face mask (Rp.10.000,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/facemask"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/skincare_button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="FaceWash(Rp.20.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/facewash"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/skincare_button3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Serum (Rp.24.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/serum"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/skincare_button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Snscreen(Rp.40.000,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/sunscreen"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/skincare_button5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Lipbalm (Rp.16.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/lipbalm"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+</LinearLayout>
+
+

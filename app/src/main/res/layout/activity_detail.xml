@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0CB"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/image_tulip"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/tulipffp"/>
+
+    <TextView
+        android:id="@+id/tittle_tulip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bunga Tulip (Rp.6.000,00)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/desc_tulip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Tullip Holland, Berbagai warna (Pink, Putih,dll), Kondisi Bunga Segar dan Berkualitas"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#808080"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/share_tulip"
+        android:layout_width="130dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFDD0"
+        android:textColor="#808080"
+        android:text="Share" />
+
+
+
+
+</LinearLayout>

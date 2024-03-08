@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC0CB"
+    tools:context=".bungaActivity">
+
+    <Button
+        android:id="@+id/bunga_button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga Tulip (Rp.6.000,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/tulipffp"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/bunga_button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga Matahari (Rp.5.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/suns"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/bunga_button3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga Mawar (Rp.4.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/mawarssr"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/bunga_button4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga Melati (Rp.4.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/melatie"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+    <Button
+        android:id="@+id/bunga_button5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFDD0"
+        android:text="Bunga Anggrek (Rp.6.500,00)"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/anggrekk"
+        android:gravity="start|center_vertical"
+        android:drawablePadding="20dp"
+        android:textColor="#808080" />
+
+</LinearLayout>
